@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import { brightnessToChar, rgbToBrightness, rgbToHex } from './charmaps';
 
-const FONT_ASPECT = 0.6;
+const FONT_ASPECT = 0.7;
 
 function sampleRegion(
     frame: Buffer, srcW: number, srcH: number,
